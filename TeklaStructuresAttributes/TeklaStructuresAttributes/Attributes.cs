@@ -5,6 +5,30 @@ namespace TeklaStructuresAttributes
     public static class Attributes
     {
         /// <summary>
+        /// Moddex Item Number
+        /// </summary>
+        /// <returns>float</returns>
+        public const string ARTICLE_NUMBER = "MX_ITEM_PART";
+        
+        /// <summary>
+        /// Moddex Color
+        /// </summary>
+        /// <returns>string</returns>
+        public const string CUSTOM_COLOR = "MX_COLOUR";
+
+        /// <summary>
+        /// Moddex Stanchion/Panel Description
+        /// </summary>
+        /// <returns>string</returns>
+        public const string STANCHION_PANEL_DESC = "MX_STANCHION_DESC";
+
+        /// <summary>
+        /// Moddex Pipe Description
+        /// </summary>
+        /// <returns>string</returns>
+        public const string PIPE_DESC = "PRODUCT_DESCR";
+        
+        /// <summary>
         /// NIL_DESCR
         /// </summary>
         /// <returns>int</returns>
